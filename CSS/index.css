@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    padding: 10px 10px;
+    /* font-family: 'Roboto', 'sans-serif'; */
+    font-weight: 600;
+}
+.clearfix::after{
+    content: "";
+    /* Creates an empty content */
+    display: table;
+    /* Makes the element behave like a table */
+    clear: both;
+    /* Clears all floated elements */
+}
+.internal-header {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    padding: auto;
+}
+
+.logo-div {
+    float: left;
+    /* display: inline-block; */
+    padding-top: 10px;
+}
+.logoimg{
+    vertical-align: -60%;
+    width: 50px;
+    height: 50px;
+}
+.logo {
+    width: 30%;
+    text-decoration: none;
+    color: #333;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.nav {
+    float: right;
+    padding: 20px 30px;
+    margin-top: 3px;
+}
+.search-logo{
+    width: 25px;
+}
+.nav-text{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: medium;
+    color: #878787;
+}
+.nav-text:hover{
+    color: #FF6600;
+}
+.banner{
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+.internal-left-banner{
+    width: 50%;
+    float: left;
+}
+.title{
+    font-size: 60px;
+    font-weight: 799;
+    margin-bottom: 40px;
+}
+.panner-p{
+    color: #333;
+    font-size: medium;
+    margin-bottom: 50px;
+}
+.button{
+    width: 22%;
+    margin-right: 5px;
+    padding: 13px 20px;
+    color: white;
+    border: 0px;
+}
+.button:hover{
+  scale: 105%;
+  transition: 200ms;
+}
+.buttonH:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+.orange{
+    background-color:  #FF6600;
+}
+.black{
+    background-color:black ;
+}
+.banner-image-div{
+    float: right;
+    width: 50%;
+    padding-right: 5dvh;
+}
+.banner-image{
+    float: right;
+   width: 85%;
+}
+.services-div{
+    margin: auto;
+    padding: auto;
+    margin-top: 200px;
+    text-align: center;
+    width: 80%;
+}
+.services-div-page{
+    margin: auto;
+    padding: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+}
+.service-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px;
+}
+.service-card{
+    border: 1px solid gainsboro;
+    width: 30%;
+    margin: 60px 10px 50px;
+    padding: 30px 15px;
+    line-height: 22px;
+}
+.service-card:hover{
+    border-top:5px solid #FF6600;
+    scale: 103%;
+    transition: 300ms;
+}
+.card-image{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.text-orange{
+    color: #FF6600;
+    font-size: 20px;
+}
+.service-button{
+    background-color: black;
+    border: 0px;
+    color: white;
+    padding: 12px 35px;
+    font-size: 14px;
+}
+.fruits{
+    margin: auto;
+    padding: 10px 00px 10px 30px;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+}
+.fruit-card{
+    width: 100%;
+    margin: 50px auto 90px;
+}
+.fruit-card-left{
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+.fruit-card-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.fruit-card-paragraph{
+    width: 95%;
+    line-height: 23px;
+    margin-bottom: 35px;
+}
+.fruit-card-right{
+    float: right;
+    width: 40%;
+    padding: 40px 30px 20px 0px;
+}
+.fruit-card-img{
+    width: 250px;
+}
+.fruit-card-right-grapes{
+    float: right;
+    width: 40%;
+    padding: 10px 30px 0px 0px;
+}
+.fruit-card-img-grapes{
+    width: 90px;
+}
+.fruit-card-img-gauva{
+    width: 200px;
+}
+.banner2{
+    width: 100%;
+    height: 500px;
+    background-image: url("../assets/images/tasty.png");
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 105px;
+    font-weight: 800;
+    padding: 210px 0px;
+    margin: 50px 0px;
+}
+.testimonial{
+    margin: auto;
+    padding: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 80%;
+}
+.testimonial-img{
+    width: 25%;
+    margin: 50px 0px 0px;
+}
+.Testimonial-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contactus-outer{
+    width: 100%;
+    padding-top: 50px;
+}
+.dish-img{
+    float: right;
+    width: 14%;
+}
+.contactus-inner-form{
+    width: 80%;
+    margin: auto;
+    padding: 10px 50px 10px 10px;
+}
+input{
+    border: 0;
+    border-bottom: 2px solid rgb(197, 197, 197);
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 15px;
+}
+.contactus-inner-title{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px 0px 30px;
+}
+.button-contact{
+    width: 11%;
+    font-size: 15px;
+    margin-top: 40px;
+    padding: 10px 40px;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    padding-left: 10px;
+}
+.footer-section{
+    width: 10%;
+    float: left;
+    margin-right: 15%;
+}
+.footer-section-title{
+    font-size: 23px;
+    font-weight: lighter;
+    margin-bottom: 12px;
+}
+.footer-section-paragraph{
+    line-height: 25px;
+    color: rgb(51, 49, 49);
+}
+.footer-social-section{
+    float: right;
+    width: 25%;
+}
+.social-icons{
+    width: 12%;
+    margin: 10px 5px 15px 0px;
+}
+.sub-input{
+    border: 2px solid rgb(182, 181, 181);
+    width: 75%;
+    padding: 5px;
+}
+.button-sub{
+    border: 0;
+    width: 50%;
+    color: white;
+    padding: 8px 30px;
+}
+.copy{
+    width: 100%;
+    height: 70px;
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 25px;
+}
