@@ -8,7 +8,6 @@ This is a **Grocery Website** designed to display various fruits, built as part 
 - [🚀 Features](#--features)  
 - [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)  
 - [🎥 Demo Video](#-demo-video)  
-- [📷 Screenshots](#-screenshots)  
 - [📂 Installation & Usage](#-installation--usage)  
 - [📅 Future Enhancements](#-future-enhancements)  
 - [📜 License](#-license)  
@@ -24,10 +23,7 @@ This is a **Grocery Website** designed to display various fruits, built as part 
 - **CSS3** - Styling and layout.  
 
 ## 🎥 Demo Video  
-_A demo video will be available soon to showcase the project's functionality._  
-
-## 📷 Screenshots  
-_Add screenshots of your website here._  
+_A demo video will be available soon to showcase the project's functionality._   
 
 ## 📂 Installation & Usage  
 ### 📝 Prerequisites  
