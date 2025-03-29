@@ -5,8 +5,8 @@ This is a **Grocery Website** designed to display various fruits, built as part 
 
 ## 📖 Table of Contents  
 - [📌 Overview](#-overview)  
-- [🚀 Features](#-features)  
-- [🛠️ Technologies Used](#-technologies-used)  
+- [🚀 Features](#--features)  
+- [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)  
 - [🎥 Demo Video](#-demo-video)  
 - [📷 Screenshots](#-screenshots)  
 - [📂 Installation & Usage](#-installation--usage)  
@@ -40,7 +40,7 @@ Ensure you have a modern web browser installed, such as **Google Chrome**, **Fir
 2. **📂 Navigate to the Project Folder**  
    ```bash
    cd iti-HTML&CSS-Project
-3.**🌐 Open the Project in a Browser**  
+3. **🌐 Open the Project in a Browser**  
    Simply open the `index.html` file in any modern web browser to view the site.  
 
 ## 📅 Future Enhancements  
